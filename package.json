@@ -1,14 +1,14 @@
 {
-	"name": "lsp-sample",
-	"description": "A language server example",
-	"author": "Microsoft Corporation",
+	"name": "monkey-lsp",
+	"description": "A Language Server Monkey",
+	"author": "https://github.com/masa-suzu",
 	"license": "MIT",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/masa-suzu/monkey-lsp"
 	},
-	"publisher": "vscode-samples",
+	"publisher": "masa-suzu",
 	"categories": [],
 	"keywords": [
 		"multi-root ready"
@@ -25,13 +25,13 @@
 			"type": "object",
 			"title": "Example configuration",
 			"properties": {
-				"languageServerExample.maxNumberOfProblems": {
+				"MonkeylanguageServer.maxNumberOfProblems": {
 					"scope": "resource",
 					"type": "number",
 					"default": 100,
 					"description": "Controls the maximum number of problems produced by the server."
 				},
-				"languageServerExample.trace.server": {
+				"MonkeylanguageServer.trace.server": {
 					"scope": "window",
 					"type": "string",
 					"enum": [

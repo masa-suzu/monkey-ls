@@ -1,15 +1,15 @@
 {
-	"name": "lsp-sample-server",
+	"name": "monkey-lsp-server",
 	"description": "Example implementation of a language server in node.",
-	"version": "1.0.0",
-	"author": "Microsoft Corporation",
+	"version": "0.0.1",
+	"author": "https://github.com/masa-suzu",
 	"license": "MIT",
 	"engines": {
 		"node": "*"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/masa-suzu/monkey-lsp"
 	},
 	"dependencies": {
 		"vscode-languageserver": "^4.1.3"
