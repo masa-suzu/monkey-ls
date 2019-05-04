@@ -1,21 +1,33 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "Monkey",
+	"name": "monkey",
 	"patterns": [
 		{
 			"include": "#keywords"
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#functions"
 		}
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.monkey",
-				"match": "\\b(fn|let|true|false|if|else|return)\\b"
-			}]
-		},
+			"patterns": [
+				{
+					"name": "keyword.control.monkey",
+					"match": "if|else|return"
+				},
+				{
+					"name": "storage.type.monkey",
+					"match": "\\b(let|fn)\\b"
+				}
+			]
+		},	
 		"strings": {
 			"name": "string.quoted.double.monkey",
 			"begin": "\"",
@@ -26,6 +38,21 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.numeric.monkey",
+					"match": "-?[0-9]+"
+				},
+				{
+					"name": "constant.language.monkey",
+					"match": "\\b(true|false)\\b"
+				}
+			]
+		},
+		"functions":{
+			"patterns": []
 		}
 	},
 	"scopeName": "source.monkey"
