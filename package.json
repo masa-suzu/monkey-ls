@@ -1,12 +1,13 @@
 {
-	"name": "monkey-lsp",
-	"description": "A Language Server Monkey",
+	"name": "monkey-ls",
+	"displayName": "Monkey (mls)",
+	"description": "Monkey Language Support",
 	"author": "https://github.com/masa-suzu",
 	"license": "MIT",
 	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/masa-suzu/monkey-lsp"
+		"url": "https://github.com/masa-suzu/monkey-ls"
 	},
 	"publisher": "masa-suzu",
 	"categories": [

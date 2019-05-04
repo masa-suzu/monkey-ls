@@ -7,7 +7,7 @@
 	"publisher": "vscode",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/masa-suzu/monkey-lsp"
+		"url": "https://github.com/masa-suzu/monkey-ls"
 	},
 	"engines": {
 		"vscode": "^1.23.0"

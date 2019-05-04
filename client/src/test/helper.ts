@@ -12,11 +12,11 @@ export let documentEol: string;
 export let platformEol: string;
 
 /**
- * Activates the vscode.monkey-lsp extension
+ * Activates the vscode.monkey-ls extension
  */
 export async function activate(docUri: vscode.Uri) {
 	// The extensionId is `publisher.name` from package.json
-	const ext = vscode.extensions.getExtension('masa-suzu.monkey-lsp')!;
+	const ext = vscode.extensions.getExtension('masa-suzu.monkey-ls')!;
 	await ext.activate();
 	try {
 		doc = await vscode.workspace.openTextDocument(docUri);
