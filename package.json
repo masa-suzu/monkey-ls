@@ -4,7 +4,7 @@
 	"description": "Monkey Language Support",
 	"author": "https://github.com/masa-suzu",
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/masa-suzu/monkey-ls"
@@ -14,7 +14,7 @@
 		"Programming Languages",
 		"Linters",
 		"Snippets"
-    ],
+	],
 	"keywords": [
 		"multi-root ready"
 	],
@@ -49,23 +49,32 @@
 				}
 			}
 		},
-		"languages": [{
-            "id": "monkey",
-            "aliases": ["Monkey", "monkey"],
-            "extensions": [".monkey"],
-            "configuration": "./language-configuration.json"
-		}],
-		"snippets": [
+		"languages": [
 			{
-			  "language": "monkey",
-			  "path": "./snippets/monkey.json"
+				"id": "monkey",
+				"aliases": [
+					"Monkey",
+					"monkey"
+				],
+				"extensions": [
+					".monkey"
+				],
+				"configuration": "./language-configuration.json"
 			}
 		],
-        "grammars": [{
-            "language": "monkey",
-            "scopeName": "source.monkey",
-            "path": "./syntaxes/monkey.tmLanguage.json"
-        }]
+		"snippets": [
+			{
+				"language": "monkey",
+				"path": "./snippets/monkey.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "monkey",
+				"scopeName": "source.monkey",
+				"path": "./syntaxes/monkey.tmLanguage.json"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "cd client && npm run update-vscode && cd .. && npm run compile",
