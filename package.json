@@ -11,7 +11,9 @@
 	},
 	"publisher": "masa-suzu",
 	"categories": [
-        "Programming Languages"
+		"Programming Languages",
+		"Linters",
+		"Snippets"
     ],
 	"keywords": [
 		"multi-root ready"
@@ -52,7 +54,13 @@
             "aliases": ["Monkey", "monkey"],
             "extensions": [".monkey"],
             "configuration": "./language-configuration.json"
-        }],
+		}],
+		"snippets": [
+			{
+			  "language": "monkey",
+			  "path": "./snippets/monkey.json"
+			}
+		],
         "grammars": [{
             "language": "monkey",
             "scopeName": "source.monkey",

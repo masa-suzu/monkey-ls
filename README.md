@@ -4,6 +4,7 @@ Adds language support for Monkey to Visual Studio Code. Supports:
 
 - code completion
 - syntax highlighting
+- snippets
 
 ## Functionality
 
@@ -11,6 +12,7 @@ This Language Support works for .monkey file. It has the following language feat
 
 - Completions
 - Syntax highlighting
+- Snippets
 
 ## Quick start
 

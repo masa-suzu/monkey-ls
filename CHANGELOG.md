@@ -4,3 +4,4 @@
 
 ### Added
 - Syntax highlighting.
+- Snippets
